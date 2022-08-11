@@ -53,7 +53,7 @@ class MainFragment : BrowseSupportFragment() {
 
     private fun setupUIElements() {
         title = getString(R.string.browse_title)
-        headersState = HEADERS_ENABLED
+        headersState = HEADERS_DISABLED
         brandColor = ContextCompat.getColor(requireActivity(), R.color.search_opaque)
         searchAffordanceColor = ContextCompat.getColor(
             requireActivity(),
