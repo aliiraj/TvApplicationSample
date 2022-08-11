@@ -1,5 +1,7 @@
 <resources>
-    <style name="Theme.TvApplicationSample" parent="@style/Theme.Leanback" />
+    <style name="Theme.TvApplicationSample" parent="@style/Theme.Leanback">
+        <item name="android:fontFamily">@font/iransanswebbold</item>
+    </style>
     <style name="Theme.Example.Leanback.CustomTitle" parent="Theme.TvApplicationSample">
         <item name="browseTitleViewLayout">@layout/header_view</item>
     </style>

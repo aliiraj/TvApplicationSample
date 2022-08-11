@@ -4,8 +4,8 @@ import com.example.tvapplicationsample.data.models.Movie
 
 object MovieList {
     val MOVIE_CATEGORY = arrayOf(
-        "Category Zero",
-        "Category One",
+        "دسته بندی ۱",
+        "دسته بندی ۲",
     )
 
     val list: List<Movie> by lazy {
