@@ -2,8 +2,8 @@ package com.example.tvapplicationsample.presentation
 
 import android.os.Bundle
 import androidx.fragment.app.FragmentActivity
-import com.example.tvapplicationsample.presentation.home.MainFragment
 import com.example.tvapplicationsample.R
+import com.example.tvapplicationsample.presentation.home.HomeFragment
 
 class MainActivity : FragmentActivity() {
 
@@ -12,7 +12,7 @@ class MainActivity : FragmentActivity() {
         setContentView(R.layout.activity_main)
         if (savedInstanceState == null) {
             supportFragmentManager.beginTransaction()
-                .replace(R.id.main_browse_fragment, MainFragment())
+                .replace(R.id.main_browse_fragment, HomeFragment())
                 .commitNow()
         }
     }
